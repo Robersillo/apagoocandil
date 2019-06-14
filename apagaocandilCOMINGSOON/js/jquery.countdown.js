@@ -31,7 +31,7 @@ function Countdown() {
 		since: null, // new Date(year, mth - 1, day, hr, min, sec) - date/time to count up from
 			// or numeric for seconds offset, or string for unit offset(s):
 			// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds
-		timezone: +2, // The timezone (hours or minutes from GMT) for the target times,
+		timezone: null, // The timezone (hours or minutes from GMT) for the target times,
 			// or null for client local
 		serverSync: null, // A function to retrieve the current server time for synchronisation
 		format: 'dHMS', // Format for display - upper case for always, lower case only if non-zero,
